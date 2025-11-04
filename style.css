@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+  font-family: "Lato", sans-serif;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.logo {
+  color: red;
+  text-transform: uppercase;
+  font-family: "K2D", sans-serif;
+}
+.btn {
+  background-color: orangered;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 30px;
+  margin: 5px;
+}
+
+.container-2 {
+}
+
+.Rafka-99 {
+  color: orangered;
+}
+
+.Button-1 {
+  background-color: orangered;
+  color: white;
+  border:none;
+  border-radius: 5px;
+  padding: 8px 20px;
+  margin: 5px;
+}
+
+.kaymay-1 {
+  background-color: grey;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 20px;
+  margin: 5px;
+}
+.paragraf-1 {
+  color: orange;
+  font-weight: bold;
+}
+.paragraf-2{
+  color: white;
+}
+.Gp-1{
+  margin-top: 10px;
+}
+nav {
+  display: none;
+}
+
+nav {
+  display: block;
+}
+
+.HOME {
+  color: orangered;
+}
+
+nav ul {
+  list-style: none;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 5%;
+  margin-left: 5%;
+  line-height: 35px;
+}
+
+nav ul {
+  display: none;
+}
+.icon-bar {
+  color: grey;
+}
+
+.right-img img {
+  width: 160%;
+}
+
+.right-img {
+  width: 200px;
+}
+
+.left-text {
+  line-height: 40px;
+  color: gray;
+}
+.box-ratting {
+  background-color: rgb(68, 68, 71);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 10px;
+  padding: 5px;
+}
+.port-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 16px;
+}
+.port-1 p {
+}
+
+.line {
+  width: 1px;
+  background-color: black;
+  height: 40px;
+}
+
+/* section services */
+.container-service{
+  margin: 0 10%;
+  text-align: center ;
+}
+.category{
+  color: white;
+  font-size: 20px;
+  align-items: center;
+}
+.paragraf-services{
+  color: gray;
+  font-size: 15px;
+}
+.box-card-service{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.card-services{
+  background-color: gray;
+  border-radius: 10px;
+  border: none;
+  width: 48%;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+}
+.H1-services{
+  font-size: 20px;
+}
+
+/*Section About*/
+
+.paragraf-about{
+  color: gray;
+  font-size: 15px;
+}
+
+
+
+
+
+@media (min-width: 391px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10%;
+    margin-left: 10%;
+    font-size: 30px;
+    color: gray;
+  }
+  .right-img {
+    width: 500px;
+  }
+  .icon-bar {
+    display: none;
+    color: gray;
+  }
+  .left-text {
+    line-height: 60px;
+    color: grey;
+  }
+  .right-img img {
+    width: 80%;
+  }
+
+  .port-1 p {
+    align-items: center;
+  }
+  nav ul {
+    width: 700px;
+    list-style: none;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: grey;
+  }
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10%;  
+    margin-left: 10%;
+  }
+}
+.box-ratting{
+  padding: 13px;
+  margin: 15px 0;
+}

@@ -1,0 +1,50 @@
+p {
+}
+.h2-1{
+    color: blue;
+     font-family: "Lato", sans-serif;
+}
+.text-tebal {
+  font-weight: bold;
+}
+.text-miring {
+  font-style: italic;
+}
+.paragraf-1{
+    font-size: 25px;
+    color: red;
+}
+.paragraf-2{
+    font-size: 8px;
+    color: gray;
+}
+.paragraf-3{
+ text-decoration: underline;
+}
+.paragraf-4{
+    text-decoration: overline;
+}
+.paragraf-5{
+   text-decoration: line-through;
+}
+.paragraf-6{
+    text-align: center;
+}
+.paragraf-7{
+    text-align: right;
+}
+.paragraf-8{
+    text-transform: uppercase;
+}
+.paragraf-9{
+    text-transform: lowercase;
+}
+.paragraf-10{
+    text-transform: capitalize;
+}
+.paragraf-11{
+    letter-spacing: 10px;
+}
+.paragraf-12{
+    word-spacing: 20px;
+}
