@@ -25,21 +25,33 @@ header {
   color: white;
   border: none;
   border-radius: 5px;
-  padding: 5px 30px;
+  padding: 9px 30px;
   margin: 5px;
 }
 
 .container-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60%;
+  margin-top: 20px;
 }
 
 .Rafka-99 {
-  color: orangered;
+  background: #ff6f00;
+  background: radial-gradient(
+    circle,
+    rgba(255, 111, 0, 1) 0%,
+    rgba(171, 74, 0, 1) 94%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .Button-1 {
   background-color: orangered;
   color: white;
-  border:none;
+  border: none;
   border-radius: 5px;
   padding: 8px 20px;
   margin: 5px;
@@ -55,11 +67,14 @@ header {
 .paragraf-1 {
   color: orange;
   font-weight: bold;
+  font-size: 15px;
 }
-.paragraf-2{
-  color: white;
+.paragraf-2 {
+  color: #dfdfdf;
+  font-size: 10px;
+  font-weight: bold;
 }
-.Gp-1{
+.Gp-1 {
   margin-top: 10px;
 }
 nav {
@@ -113,7 +128,7 @@ nav ul {
   color: gray;
 }
 .box-ratting {
-  background-color: rgb(68, 68, 71);
+  background-color: #1b1b1b;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -136,47 +151,91 @@ nav ul {
 }
 
 /* section services */
-.container-service{
+.container-service {
   margin: 0 10%;
-  text-align: center ;
+  text-align: center;
 }
-.category{
+.category {
   color: white;
   font-size: 20px;
   align-items: center;
 }
-.paragraf-services{
-  color: gray;
-  font-size: 15px;
+.paragraf-services {
+  color: rgb(146, 139, 139);
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
 }
-.box-card-service{
+.box-card-service {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
   gap: 10px;
+  padding: 15px;
+  margin: 10px;
 }
-.card-services{
-  background-color: gray;
+.card-services {
+  background-color: #1b1b1b;
   border-radius: 10px;
   border: none;
   width: 48%;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
 }
-.H1-services{
+.H1-services {
   font-size: 20px;
+  margin-top: 5px;
+  color: #ff6f00;
+}
+.icon-bar {
+  margin-top: 10px;
+  color: #ff6f00;
 }
 
 /*Section About*/
 
-.paragraf-about{
+.paragraf-about {
   color: gray;
   font-size: 15px;
 }
 
-
-
-
+.box-ratting {
+  padding: 13px;
+  margin: 15px 0;
+}
+.pragraf-about-me {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: gray;
+}
+.image-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 395.7px;
+}
+.Button-CV {
+  border-radius: 8px;
+  border: none;
+  width: 186px;
+  height: 40px;
+  background-color: #ff6f00;
+  padding-top: 8px;
+  padding-right: 24px;
+  padding-bottom: 8px;
+  padding-left: 24px;
+  gap: 10px;
+  font-family: "Lato", sans-serif;
+}
+.group-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 
 @media (min-width: 391px) {
   .container {
@@ -192,7 +251,7 @@ nav ul {
   .right-img {
     width: 500px;
   }
-  .icon-bar {
+  .icon-bar-1 {
     display: none;
     color: gray;
   }
@@ -222,11 +281,105 @@ nav ul {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-right: 10%;  
+    margin-right: 10%;
     margin-left: 10%;
   }
-}
-.box-ratting{
-  padding: 13px;
-  margin: 15px 0;
+
+  .box-card-service {
+    /* background-color: red; */
+  }
+  .card-services {
+    width: 26%;
+    padding: 30px;
+    gap: 5px;
+    border-radius: 24px;
+    border: none;
+  }
+  .H1-services {
+    font-size: 20px;
+    margin-top: 5px;
+  }
+  .icon-bar {
+    margin-top: 5px;
+    color: #ff6f00;
+  }
+  /*section about me*/
+  .pragraf-about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: rgb(146, 139, 139);
+    margin-top: 50px;
+  }
+  .About-me2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .image-1 {
+    width: 566px;
+    height: 700px;
+    margin-left: 20px;
+  }
+  .Pragraf-button-1 {
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+  }
+  .container-icon {
+    color: #ff6f00;
+    font-weight: 700;
+  }
+  .container-paragraf {
+    color: rgb(146, 139, 139);
+    font-weight: 700;
+    size: 24px;
+  }
+  .card-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+  }
+  .Group-1 {
+    text-align: center;
+  }
+  .h3-prtfolio {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .BUTTON-1 {
+    border-radius: 8px;
+    border: none;
+    width: 70px;
+    height: 35px;
+    background-color: #ff6f00;
+    color: white;
+    font-weight: 500;
+  }
+  .BUTTON-2 {
+    border-radius: 5px;
+    border: none;
+    width: 120px;
+    height: 30px;
+    background-color: white;
+    color: gray;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .BUTTON-3 {
+    border-radius: 5px;
+    border: none;
+    width: 160px;
+    height: 30px;
+    background-color: #1b1b1b;
+    color: gray;
+    font-weight: 500;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
